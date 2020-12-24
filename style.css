@@ -1,0 +1,122 @@
+.ejercicio1 p {
+  border: 5px dotted black;
+}
+.ejercicio1 p:last-child {
+  border-color: red;
+}
+
+.ejercicio2 h1 {
+  background-color: skyblue;
+}
+
+.shorter {
+  width: 300px;
+}
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.p-2-4 {
+  padding: 2em 4em;
+}
+
+.h-4 {
+  height: 4em;
+}
+
+.w-200px {
+  width: 200px;
+}
+
+.p-2 {
+  padding: 2em;
+}
+
+.b-2-blue {
+  border: 2em solid blue;
+}
+
+.ml-1 {
+  margin-left: 1em;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ti-2 {
+  text-indent: 1em;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fz-50px {
+  font-size: 50px;
+}
+
+.fz-30px {
+  font-size: 30px;
+}
+
+.ejercicio18 div {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2em solid skyblue;
+  padding: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.ejercicio19 div {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2em solid skyblue;
+  padding: 3em 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.ejercicio19 h2 {
+  color: green;
+}
+
+.ejercicio19 h2,
+.ejercicio19 p {
+  margin: 0;
+  background-color: skyblue;
+}
+
+[class^="ejercicio"] {
+  border-bottom: 1px solid black;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
